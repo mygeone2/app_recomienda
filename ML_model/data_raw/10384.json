@@ -1,0 +1,436 @@
+{
+    "id": "5ced562aef59fa0001b23c2c",
+    "rbd": 10384,
+    "nombre": "ESCUELA BASICA PART.BRIGIDA WALKER",
+    "dependencia": "PARTICULAR SUBVENCIONADO",
+    "telefono": "3578051",
+    "mail": "BRIGIDAWALKER@GMAIL.COM",
+    "url": "WWW.BRIGIDAWALKER.CL",
+    "habilitadoPostular": true,
+    "habilitadoVitrina": true,
+    "nivelMinimo": "Pre-Kinder",
+    "nivelMaximo": "5\u00ba B\u00e1sico",
+    "director": {
+        "nombre": "MAR\u00cdA ANG\u00c9LICA BERM\u00daDEZ QUEZADA"
+    },
+    "etiquetas": [
+        "GRATUITO"
+    ],
+    "informacionInstitucional": {
+        "resumenProyecto": "",
+        "documentoProyecto": "ProyectoEducativo10384.pdf",
+        "documentoReglamento": "ReglamentodeConvivencia10384.pdf",
+        "internado": false,
+        "integracion": false,
+        "subvencionPreferencial": false,
+        "peib": false,
+        "politicaUniforme": "Uniforme regular",
+        "orientacionReligiosa": "Laica",
+        "alumnosMatriculados": 62,
+        "promedioAlumnosPorCurso": 10,
+        "cantidadDocentes": 6,
+        "regimen": "Mixto"
+    },
+    "sedes": [
+        {
+            "codigoSede": 1,
+            "direccion": {
+                "codigoRegion": 13,
+                "codigoComuna": 13127,
+                "region": "Metropolitana De Santiago",
+                "comuna": "Recoleta",
+                "calle": "JUAN CRISTOBAL 4327",
+                "coordenadas": {
+                    "type": "Point",
+                    "coordinates": [
+                        -70.64922,
+                        -33.38167
+                    ]
+                }
+            },
+            "niveles": [
+                {
+                    "codigoCurso": 501000000132,
+                    "glosaGrupoEnsenanza": "Educaci\u00f3n Parvularia",
+                    "glosaEnsenanza": "Educaci\u00f3n Parvularia",
+                    "glosaNivel": "2\u00b0 nivel de Transici\u00f3n (Kinder)",
+                    "etiquetaNivel": "KINDER",
+                    "sexo": "MIXTO",
+                    "glosaJornada": "TARDE",
+                    "glosaEspecialidad": null,
+                    "glosaGrupoPago": "PARVULARIA",
+                    "codigoEnsenanza": 10,
+                    "codigoNivel": 5,
+                    "codigoJornada": 2,
+                    "codigoSexo": 3,
+                    "codigoEspecialidad": 0,
+                    "unicoComuna": false,
+                    "proporcionExcelenciaTransicion": null,
+                    "proporcionExcelenciaRegimen": null,
+                    "proporcionEspecializacionTemprana": null,
+                    "copago": {
+                        "numeroCuotas": 0,
+                        "valorCuota": 0
+                    },
+                    "cuposTotales": 18,
+                    "numeroVacantesRangoInferior": 18,
+                    "numeroVacantesRangoSuperior": 18,
+                    "porcentajeCambioInferior": 0.0,
+                    "procentajeCambioSuperior": 0.0,
+                    "cantidadRepitentesAnioActual": 0,
+                    "cantidadRepitentesNivelAnterior": 0,
+                    "cantidadPreInscritosAnioSiguiente": 0,
+                    "cambiosInferior": 0,
+                    "cambiosSuperior": 0,
+                    "cantidadPreVacantesInferior": 18,
+                    "cantidadPreVacantesSuperior": 18,
+                    "rango": 0,
+                    "numeroPostulantesAnioAnterior": 3,
+                    "numeroMovimientoListaEsperaAnoAnterior": 0
+                },
+                {
+                    "codigoCurso": 401000000132,
+                    "glosaGrupoEnsenanza": "Educaci\u00f3n Parvularia",
+                    "glosaEnsenanza": "Educaci\u00f3n Parvularia",
+                    "glosaNivel": "1er nivel de Transici\u00f3n (Pre-kinder)",
+                    "etiquetaNivel": "PREKINDER",
+                    "sexo": "MIXTO",
+                    "glosaJornada": "TARDE",
+                    "glosaEspecialidad": null,
+                    "glosaGrupoPago": "PARVULARIA",
+                    "codigoEnsenanza": 10,
+                    "codigoNivel": 4,
+                    "codigoJornada": 2,
+                    "codigoSexo": 3,
+                    "codigoEspecialidad": 0,
+                    "unicoComuna": false,
+                    "proporcionExcelenciaTransicion": null,
+                    "proporcionExcelenciaRegimen": null,
+                    "proporcionEspecializacionTemprana": null,
+                    "copago": {
+                        "numeroCuotas": 0,
+                        "valorCuota": 0
+                    },
+                    "cuposTotales": 18,
+                    "numeroVacantesRangoInferior": 18,
+                    "numeroVacantesRangoSuperior": 18,
+                    "porcentajeCambioInferior": 0.0,
+                    "procentajeCambioSuperior": 0.0,
+                    "cantidadRepitentesAnioActual": 0,
+                    "cantidadRepitentesNivelAnterior": 0,
+                    "cantidadPreInscritosAnioSiguiente": 0,
+                    "cambiosInferior": 0,
+                    "cambiosSuperior": 0,
+                    "cantidadPreVacantesInferior": 18,
+                    "cantidadPreVacantesSuperior": 18,
+                    "rango": 0,
+                    "numeroPostulantesAnioAnterior": null,
+                    "numeroMovimientoListaEsperaAnoAnterior": null
+                },
+                {
+                    "codigoCurso": 111000000132,
+                    "glosaGrupoEnsenanza": "Educaci\u00f3n B\u00e1sica",
+                    "glosaEnsenanza": "Ense\u00f1anza B\u00e1sica",
+                    "glosaNivel": "1\u00b0 b\u00e1sico",
+                    "etiquetaNivel": "1BASICO",
+                    "sexo": "MIXTO",
+                    "glosaJornada": "TARDE",
+                    "glosaEspecialidad": null,
+                    "glosaGrupoPago": "BASICA",
+                    "codigoEnsenanza": 110,
+                    "codigoNivel": 1,
+                    "codigoJornada": 2,
+                    "codigoSexo": 3,
+                    "codigoEspecialidad": 0,
+                    "unicoComuna": false,
+                    "proporcionExcelenciaTransicion": null,
+                    "proporcionExcelenciaRegimen": null,
+                    "proporcionEspecializacionTemprana": null,
+                    "copago": {
+                        "numeroCuotas": 0,
+                        "valorCuota": 0
+                    },
+                    "cuposTotales": 23,
+                    "numeroVacantesRangoInferior": 18,
+                    "numeroVacantesRangoSuperior": 21,
+                    "porcentajeCambioInferior": 0.3222222222,
+                    "procentajeCambioSuperior": 0.5178571428,
+                    "cantidadRepitentesAnioActual": 0,
+                    "cantidadRepitentesNivelAnterior": 0,
+                    "cantidadPreInscritosAnioSiguiente": 7,
+                    "cambiosInferior": 2,
+                    "cambiosSuperior": 4,
+                    "cantidadPreVacantesInferior": 18,
+                    "cantidadPreVacantesSuperior": 21,
+                    "rango": 2,
+                    "numeroPostulantesAnioAnterior": 7,
+                    "numeroMovimientoListaEsperaAnoAnterior": 0
+                },
+                {
+                    "codigoCurso": 211000000131,
+                    "glosaGrupoEnsenanza": "Educaci\u00f3n B\u00e1sica",
+                    "glosaEnsenanza": "Ense\u00f1anza B\u00e1sica",
+                    "glosaNivel": "2\u00b0 b\u00e1sico",
+                    "etiquetaNivel": "2BASICO",
+                    "sexo": "MIXTO",
+                    "glosaJornada": "MA\u00d1ANA",
+                    "glosaEspecialidad": null,
+                    "glosaGrupoPago": "BASICA",
+                    "codigoEnsenanza": 110,
+                    "codigoNivel": 2,
+                    "codigoJornada": 1,
+                    "codigoSexo": 3,
+                    "codigoEspecialidad": 0,
+                    "unicoComuna": false,
+                    "proporcionExcelenciaTransicion": null,
+                    "proporcionExcelenciaRegimen": null,
+                    "proporcionEspecializacionTemprana": null,
+                    "copago": {
+                        "numeroCuotas": 0,
+                        "valorCuota": 0
+                    },
+                    "cuposTotales": 22,
+                    "numeroVacantesRangoInferior": 13,
+                    "numeroVacantesRangoSuperior": 16,
+                    "porcentajeCambioInferior": 0.1925925925,
+                    "procentajeCambioSuperior": 0.39715719060000004,
+                    "cantidadRepitentesAnioActual": 0,
+                    "cantidadRepitentesNivelAnterior": 0,
+                    "cantidadPreInscritosAnioSiguiente": 11,
+                    "cambiosInferior": 2,
+                    "cambiosSuperior": 4,
+                    "cantidadPreVacantesInferior": 13,
+                    "cantidadPreVacantesSuperior": 16,
+                    "rango": 2,
+                    "numeroPostulantesAnioAnterior": 1,
+                    "numeroMovimientoListaEsperaAnoAnterior": 0
+                },
+                {
+                    "codigoCurso": 311000000131,
+                    "glosaGrupoEnsenanza": "Educaci\u00f3n B\u00e1sica",
+                    "glosaEnsenanza": "Ense\u00f1anza B\u00e1sica",
+                    "glosaNivel": "3\u00b0 b\u00e1sico",
+                    "etiquetaNivel": "3BASICO",
+                    "sexo": "MIXTO",
+                    "glosaJornada": "MA\u00d1ANA",
+                    "glosaEspecialidad": null,
+                    "glosaGrupoPago": "BASICA",
+                    "codigoEnsenanza": 110,
+                    "codigoNivel": 3,
+                    "codigoJornada": 1,
+                    "codigoSexo": 3,
+                    "codigoEspecialidad": 0,
+                    "unicoComuna": false,
+                    "proporcionExcelenciaTransicion": null,
+                    "proporcionExcelenciaRegimen": null,
+                    "proporcionEspecializacionTemprana": null,
+                    "copago": {
+                        "numeroCuotas": 0,
+                        "valorCuota": 0
+                    },
+                    "cuposTotales": 21,
+                    "numeroVacantesRangoInferior": 11,
+                    "numeroVacantesRangoSuperior": 14,
+                    "porcentajeCambioInferior": 0.1693404634,
+                    "procentajeCambioSuperior": 0.30908152730000005,
+                    "cantidadRepitentesAnioActual": 0,
+                    "cantidadRepitentesNivelAnterior": 0,
+                    "cantidadPreInscritosAnioSiguiente": 12,
+                    "cambiosInferior": 2,
+                    "cambiosSuperior": 4,
+                    "cantidadPreVacantesInferior": 11,
+                    "cantidadPreVacantesSuperior": 14,
+                    "rango": 2,
+                    "numeroPostulantesAnioAnterior": null,
+                    "numeroMovimientoListaEsperaAnoAnterior": null
+                },
+                {
+                    "codigoCurso": 411000000131,
+                    "glosaGrupoEnsenanza": "Educaci\u00f3n B\u00e1sica",
+                    "glosaEnsenanza": "Ense\u00f1anza B\u00e1sica",
+                    "glosaNivel": "4\u00b0 b\u00e1sico",
+                    "etiquetaNivel": "4BASICO",
+                    "sexo": "MIXTO",
+                    "glosaJornada": "MA\u00d1ANA",
+                    "glosaEspecialidad": null,
+                    "glosaGrupoPago": "BASICA",
+                    "codigoEnsenanza": 110,
+                    "codigoNivel": 4,
+                    "codigoJornada": 1,
+                    "codigoSexo": 3,
+                    "codigoEspecialidad": 0,
+                    "unicoComuna": false,
+                    "proporcionExcelenciaTransicion": null,
+                    "proporcionExcelenciaRegimen": null,
+                    "proporcionEspecializacionTemprana": null,
+                    "copago": {
+                        "numeroCuotas": 0,
+                        "valorCuota": 0
+                    },
+                    "cuposTotales": 21,
+                    "numeroVacantesRangoInferior": 10,
+                    "numeroVacantesRangoSuperior": 13,
+                    "porcentajeCambioInferior": 0.2799019607,
+                    "procentajeCambioSuperior": 0.3621031746,
+                    "cantidadRepitentesAnioActual": 0,
+                    "cantidadRepitentesNivelAnterior": 0,
+                    "cantidadPreInscritosAnioSiguiente": 14,
+                    "cambiosInferior": 4,
+                    "cambiosSuperior": 5,
+                    "cantidadPreVacantesInferior": 10,
+                    "cantidadPreVacantesSuperior": 13,
+                    "rango": 1,
+                    "numeroPostulantesAnioAnterior": null,
+                    "numeroMovimientoListaEsperaAnoAnterior": null
+                },
+                {
+                    "codigoCurso": 511000000132,
+                    "glosaGrupoEnsenanza": "Educaci\u00f3n B\u00e1sica",
+                    "glosaEnsenanza": "Ense\u00f1anza B\u00e1sica",
+                    "glosaNivel": "5\u00b0 b\u00e1sico",
+                    "etiquetaNivel": "5BASICO",
+                    "sexo": "MIXTO",
+                    "glosaJornada": "TARDE",
+                    "glosaEspecialidad": null,
+                    "glosaGrupoPago": "BASICA",
+                    "codigoEnsenanza": 110,
+                    "codigoNivel": 5,
+                    "codigoJornada": 2,
+                    "codigoSexo": 3,
+                    "codigoEspecialidad": 0,
+                    "unicoComuna": false,
+                    "proporcionExcelenciaTransicion": null,
+                    "proporcionExcelenciaRegimen": null,
+                    "proporcionEspecializacionTemprana": null,
+                    "copago": {
+                        "numeroCuotas": 0,
+                        "valorCuota": 0
+                    },
+                    "cuposTotales": 15,
+                    "numeroVacantesRangoInferior": 6,
+                    "numeroVacantesRangoSuperior": 9,
+                    "porcentajeCambioInferior": 0.1931372549,
+                    "procentajeCambioSuperior": 0.41911764700000004,
+                    "cantidadRepitentesAnioActual": 0,
+                    "cantidadRepitentesNivelAnterior": 0,
+                    "cantidadPreInscritosAnioSiguiente": 11,
+                    "cambiosInferior": 2,
+                    "cambiosSuperior": 5,
+                    "cantidadPreVacantesInferior": 6,
+                    "cantidadPreVacantesSuperior": 9,
+                    "rango": 3,
+                    "numeroPostulantesAnioAnterior": null,
+                    "numeroMovimientoListaEsperaAnoAnterior": null
+                }
+            ]
+        }
+    ],
+    "imagenes": [
+        {
+            "nombre": "principalnueva.jpg",
+            "principal": true
+        },
+        {
+            "nombre": "principalfinalviernes.jpg",
+            "principal": false
+        },
+        {
+            "nombre": "patrados.jpg",
+            "principal": false
+        },
+        {
+            "nombre": "otrotresviernes.jpg",
+            "principal": false
+        },
+        {
+            "nombre": "final.jpg",
+            "principal": false
+        }
+    ],
+    "distancia": 0.0,
+    "actividades": [
+        {
+            "tipo": "ACTIVIDADES EXTRAPROGRAM\u00c1TICAS",
+            "nombre": "taller de baile",
+            "nivel": "",
+            "exigencia": ""
+        },
+        {
+            "tipo": "ACTIVIDADES EXTRAPROGRAM\u00c1TICAS",
+            "nombre": "Taller de teatro",
+            "nivel": "",
+            "exigencia": ""
+        },
+        {
+            "tipo": "APOYO ACAD\u00c9MICO",
+            "nombre": "Psicopedagogo",
+            "nivel": "",
+            "exigencia": ""
+        },
+        {
+            "tipo": "APOYO ACAD\u00c9MICO",
+            "nombre": "Reforzamiento en materias especificas",
+            "nivel": "",
+            "exigencia": ""
+        },
+        {
+            "tipo": "DEPORTES",
+            "nombre": "Ajedrez",
+            "nivel": "",
+            "exigencia": ""
+        },
+        {
+            "tipo": "IDIOMA",
+            "nombre": "Ingl\u00e9s en educaci\u00f3n b\u00e1sica",
+            "nivel": "",
+            "exigencia": ""
+        },
+        {
+            "tipo": "INFRAESTRUCTURA",
+            "nombre": "Sala de uso m\u00faltiple",
+            "nivel": "",
+            "exigencia": ""
+        },
+        {
+            "tipo": "INFRAESTRUCTURA",
+            "nombre": "Tecnolog\u00eda en el aula",
+            "nivel": "",
+            "exigencia": ""
+        },
+        {
+            "tipo": "PROGRAMAS",
+            "nombre": "Programa de comprensi\u00f3n lectora temprana",
+            "nivel": "",
+            "exigencia": ""
+        },
+        {
+            "tipo": "PROGRAMAS",
+            "nombre": "Programa de convivencia escolar",
+            "nivel": "",
+            "exigencia": ""
+        },
+        {
+            "tipo": "PROGRAMAS",
+            "nombre": "Programa de prevenci\u00f3n de drogas y alcohol",
+            "nivel": "",
+            "exigencia": ""
+        },
+        {
+            "tipo": "PROGRAMAS",
+            "nombre": "Programa de promoci\u00f3n de la vida sana",
+            "nivel": "",
+            "exigencia": ""
+        }
+    ],
+    "procesosEspeciales": [],
+    "indicadores": [
+        {
+            "tipo": "CATEGORIA_DESEMPENIO",
+            "titulo": "Medio",
+            "nivel": "B\u00e1sica",
+            "descripcion": "Similares a lo esperado",
+            "clasificaciones": []
+        }
+    ],
+    "especialidades": []
+}

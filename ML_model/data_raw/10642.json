@@ -1,0 +1,501 @@
+{
+    "id": "5ced56876fb9da0001ecda2d",
+    "rbd": 10642,
+    "nombre": "LICEO POLIVALENTE LOS GUINDOS",
+    "dependencia": "PUBLICO",
+    "telefono": "28221169",
+    "mail": "FELICITA.MOLINA@CORPORACIONBUIN.CL",
+    "url": "WWW.LICEOGUINDOS.CL",
+    "habilitadoPostular": true,
+    "habilitadoVitrina": true,
+    "nivelMinimo": "I Medio",
+    "nivelMaximo": "IV Medio",
+    "director": {
+        "nombre": "EMILIO ERNESTO PULGAR SOTO"
+    },
+    "etiquetas": [
+        "PIE",
+        "SEP",
+        "_4MEDIO",
+        "TECNICO_PROFESIONAL",
+        "GRATUITO"
+    ],
+    "informacionInstitucional": {
+        "resumenProyecto": "",
+        "documentoProyecto": "ProyectoEducativo10642.pdf",
+        "documentoReglamento": "ReglamentodeConvivencia10642.pdf",
+        "internado": false,
+        "integracion": true,
+        "subvencionPreferencial": true,
+        "peib": false,
+        "politicaUniforme": "Uniforme propio",
+        "orientacionReligiosa": "Laica",
+        "alumnosMatriculados": 283,
+        "promedioAlumnosPorCurso": 35,
+        "cantidadDocentes": 26,
+        "regimen": "Mixto"
+    },
+    "sedes": [
+        {
+            "codigoSede": 1,
+            "direccion": {
+                "codigoRegion": 13,
+                "codigoComuna": 13402,
+                "region": "Metropolitana De Santiago",
+                "comuna": "Buin",
+                "calle": "LOS TILOS 491 GUINDOS S/N",
+                "coordenadas": {
+                    "type": "Point",
+                    "coordinates": [
+                        -70.72207,
+                        -33.71248
+                    ]
+                }
+            },
+            "niveles": [
+                {
+                    "codigoCurso": 371072007133,
+                    "glosaGrupoEnsenanza": "Educaci\u00f3n Media T\u00e9cnico Profesional",
+                    "glosaEnsenanza": "Ense\u00f1anza Media T\u00e9cnico-Profesional Agr\u00edcola ni\u00f1os",
+                    "glosaNivel": "3\u00b0 medio",
+                    "etiquetaNivel": "3MEDIO",
+                    "sexo": "MIXTO",
+                    "glosaJornada": "COMPLETA",
+                    "glosaEspecialidad": "Agropecuaria",
+                    "glosaGrupoPago": "MEDIA_TP",
+                    "codigoEnsenanza": 710,
+                    "codigoNivel": 3,
+                    "codigoJornada": 3,
+                    "codigoSexo": 3,
+                    "codigoEspecialidad": 72007,
+                    "unicoComuna": true,
+                    "proporcionExcelenciaTransicion": null,
+                    "proporcionExcelenciaRegimen": null,
+                    "proporcionEspecializacionTemprana": null,
+                    "copago": {
+                        "numeroCuotas": 0,
+                        "valorCuota": 0
+                    },
+                    "cuposTotales": 80,
+                    "numeroVacantesRangoInferior": 5,
+                    "numeroVacantesRangoSuperior": 10,
+                    "porcentajeCambioInferior": 0.0604425144,
+                    "procentajeCambioSuperior": 0.12374138840000001,
+                    "cantidadRepitentesAnioActual": 5,
+                    "cantidadRepitentesNivelAnterior": 3,
+                    "cantidadPreInscritosAnioSiguiente": 80,
+                    "cambiosInferior": 5,
+                    "cambiosSuperior": 10,
+                    "cantidadPreVacantesInferior": 5,
+                    "cantidadPreVacantesSuperior": 10,
+                    "rango": 5,
+                    "numeroPostulantesAnioAnterior": 6,
+                    "numeroMovimientoListaEsperaAnoAnterior": 0
+                },
+                {
+                    "codigoCurso": 471072007133,
+                    "glosaGrupoEnsenanza": "Educaci\u00f3n Media T\u00e9cnico Profesional",
+                    "glosaEnsenanza": "Ense\u00f1anza Media T\u00e9cnico-Profesional Agr\u00edcola ni\u00f1os",
+                    "glosaNivel": "4\u00b0 medio",
+                    "etiquetaNivel": "4MEDIO",
+                    "sexo": "MIXTO",
+                    "glosaJornada": "COMPLETA",
+                    "glosaEspecialidad": "Agropecuaria",
+                    "glosaGrupoPago": "MEDIA_TP",
+                    "codigoEnsenanza": 710,
+                    "codigoNivel": 4,
+                    "codigoJornada": 3,
+                    "codigoSexo": 3,
+                    "codigoEspecialidad": 72007,
+                    "unicoComuna": true,
+                    "proporcionExcelenciaTransicion": null,
+                    "proporcionExcelenciaRegimen": null,
+                    "proporcionEspecializacionTemprana": null,
+                    "copago": {
+                        "numeroCuotas": 0,
+                        "valorCuota": 0
+                    },
+                    "cuposTotales": 80,
+                    "numeroVacantesRangoInferior": 5,
+                    "numeroVacantesRangoSuperior": 8,
+                    "porcentajeCambioInferior": 0.0146708683,
+                    "procentajeCambioSuperior": 0.0208214624,
+                    "cantidadRepitentesAnioActual": 2,
+                    "cantidadRepitentesNivelAnterior": 5,
+                    "cantidadPreInscritosAnioSiguiente": 74,
+                    "cambiosInferior": 1,
+                    "cambiosSuperior": 2,
+                    "cantidadPreVacantesInferior": 6,
+                    "cantidadPreVacantesSuperior": 9,
+                    "rango": 1,
+                    "numeroPostulantesAnioAnterior": 1,
+                    "numeroMovimientoListaEsperaAnoAnterior": 0
+                },
+                {
+                    "codigoCurso": 131000000133,
+                    "glosaGrupoEnsenanza": "Educaci\u00f3n Media Cient\u00edfico - Humanista",
+                    "glosaEnsenanza": "Ense\u00f1anza Media  Humanista-Cient\u00edfica ni\u00f1os y j\u00f3venes",
+                    "glosaNivel": "1\u00b0 medio",
+                    "etiquetaNivel": "1MEDIO",
+                    "sexo": "MIXTO",
+                    "glosaJornada": "COMPLETA",
+                    "glosaEspecialidad": null,
+                    "glosaGrupoPago": "MEDIA_HC",
+                    "codigoEnsenanza": 310,
+                    "codigoNivel": 1,
+                    "codigoJornada": 3,
+                    "codigoSexo": 3,
+                    "codigoEspecialidad": 0,
+                    "unicoComuna": true,
+                    "proporcionExcelenciaTransicion": null,
+                    "proporcionExcelenciaRegimen": null,
+                    "proporcionEspecializacionTemprana": null,
+                    "copago": {
+                        "numeroCuotas": 0,
+                        "valorCuota": 0
+                    },
+                    "cuposTotales": 80,
+                    "numeroVacantesRangoInferior": 80,
+                    "numeroVacantesRangoSuperior": 80,
+                    "porcentajeCambioInferior": 0.0,
+                    "procentajeCambioSuperior": 0.0,
+                    "cantidadRepitentesAnioActual": 4,
+                    "cantidadRepitentesNivelAnterior": 0,
+                    "cantidadPreInscritosAnioSiguiente": 0,
+                    "cambiosInferior": 0,
+                    "cambiosSuperior": 0,
+                    "cantidadPreVacantesInferior": 80,
+                    "cantidadPreVacantesSuperior": 80,
+                    "rango": 0,
+                    "numeroPostulantesAnioAnterior": 153,
+                    "numeroMovimientoListaEsperaAnoAnterior": 0
+                },
+                {
+                    "codigoCurso": 231000000133,
+                    "glosaGrupoEnsenanza": "Educaci\u00f3n Media Cient\u00edfico - Humanista",
+                    "glosaEnsenanza": "Ense\u00f1anza Media  Humanista-Cient\u00edfica ni\u00f1os y j\u00f3venes",
+                    "glosaNivel": "2\u00b0 medio",
+                    "etiquetaNivel": "2MEDIO",
+                    "sexo": "MIXTO",
+                    "glosaJornada": "COMPLETA",
+                    "glosaEspecialidad": null,
+                    "glosaGrupoPago": "MEDIA_HC",
+                    "codigoEnsenanza": 310,
+                    "codigoNivel": 2,
+                    "codigoJornada": 3,
+                    "codigoSexo": 3,
+                    "codigoEspecialidad": 0,
+                    "unicoComuna": true,
+                    "proporcionExcelenciaTransicion": null,
+                    "proporcionExcelenciaRegimen": null,
+                    "proporcionEspecializacionTemprana": null,
+                    "copago": {
+                        "numeroCuotas": 0,
+                        "valorCuota": 0
+                    },
+                    "cuposTotales": 80,
+                    "numeroVacantesRangoInferior": 9,
+                    "numeroVacantesRangoSuperior": 12,
+                    "porcentajeCambioInferior": 0.0666916381,
+                    "procentajeCambioSuperior": 0.0938746438,
+                    "cantidadRepitentesAnioActual": 3,
+                    "cantidadRepitentesNivelAnterior": 4,
+                    "cantidadPreInscritosAnioSiguiente": 76,
+                    "cambiosInferior": 5,
+                    "cambiosSuperior": 7,
+                    "cantidadPreVacantesInferior": 9,
+                    "cantidadPreVacantesSuperior": 12,
+                    "rango": 2,
+                    "numeroPostulantesAnioAnterior": 5,
+                    "numeroMovimientoListaEsperaAnoAnterior": 0
+                }
+            ]
+        }
+    ],
+    "imagenes": [
+        {
+            "nombre": "LOGO+PACE.jpg",
+            "principal": false
+        },
+        {
+            "nombre": "LOGO+PACE+UCSH.jpg",
+            "principal": false
+        },
+        {
+            "nombre": "PATIO-CENTRAL+(1).jpg",
+            "principal": false
+        }
+    ],
+    "distancia": 0.0,
+    "actividades": [
+        {
+            "tipo": "ACTIVIDADES EXTRAPROGRAM\u00c1TICAS",
+            "nombre": "Preuniversitario",
+            "nivel": "",
+            "exigencia": ""
+        },
+        {
+            "tipo": "ACTIVIDADES EXTRAPROGRAM\u00c1TICAS",
+            "nombre": "Taller de literatura",
+            "nivel": "",
+            "exigencia": ""
+        },
+        {
+            "tipo": "ACTIVIDADES EXTRAPROGRAM\u00c1TICAS",
+            "nombre": "Taller de manualidades",
+            "nivel": "",
+            "exigencia": ""
+        },
+        {
+            "tipo": "ACTIVIDADES EXTRAPROGRAM\u00c1TICAS",
+            "nombre": "Taller de m\u00fasica",
+            "nivel": "",
+            "exigencia": ""
+        },
+        {
+            "tipo": "ACTIVIDADES EXTRAPROGRAM\u00c1TICAS",
+            "nombre": "Taller de tecnolog\u00eda de la informaci\u00f3n y\n\t\tcomunicaci\u00f3n",
+            "nivel": "",
+            "exigencia": ""
+        },
+        {
+            "tipo": "ACTIVIDADES EXTRAPROGRAM\u00c1TICAS",
+            "nombre": "Talleres de Iniciaci\u00f3n Agr\u00edcola Temprana",
+            "nivel": "",
+            "exigencia": ""
+        },
+        {
+            "tipo": "APOYO ACAD\u00c9MICO",
+            "nombre": "Asistente Social",
+            "nivel": "",
+            "exigencia": ""
+        },
+        {
+            "tipo": "APOYO ACAD\u00c9MICO",
+            "nombre": "Equipo Convivencia, Equipo PIE, Programa PACE",
+            "nivel": "",
+            "exigencia": ""
+        },
+        {
+            "tipo": "APOYO ACAD\u00c9MICO",
+            "nombre": "Profesor de Educaci\u00f3n Especial/Diferencial",
+            "nivel": "",
+            "exigencia": ""
+        },
+        {
+            "tipo": "APOYO ACAD\u00c9MICO",
+            "nombre": "Psic\u00f3logo",
+            "nivel": "",
+            "exigencia": ""
+        },
+        {
+            "tipo": "APOYO ACAD\u00c9MICO",
+            "nombre": "Reforzamiento en materias especificas",
+            "nivel": "",
+            "exigencia": ""
+        },
+        {
+            "tipo": "DEPORTES",
+            "nombre": "Ajedrez",
+            "nivel": "",
+            "exigencia": ""
+        },
+        {
+            "tipo": "DEPORTES",
+            "nombre": "Atletismo",
+            "nivel": "",
+            "exigencia": ""
+        },
+        {
+            "tipo": "DEPORTES",
+            "nombre": "Baby F\u00fatbol",
+            "nivel": "",
+            "exigencia": ""
+        },
+        {
+            "tipo": "DEPORTES",
+            "nombre": "B\u00e1squetbol",
+            "nivel": "",
+            "exigencia": ""
+        },
+        {
+            "tipo": "DEPORTES",
+            "nombre": "F\u00fatbol",
+            "nivel": "",
+            "exigencia": ""
+        },
+        {
+            "tipo": "DEPORTES",
+            "nombre": "Handball",
+            "nivel": "",
+            "exigencia": ""
+        },
+        {
+            "tipo": "DEPORTES",
+            "nombre": "Tenis de mesa",
+            "nivel": "",
+            "exigencia": ""
+        },
+        {
+            "tipo": "DEPORTES",
+            "nombre": "V\u00f3leibol",
+            "nivel": "",
+            "exigencia": ""
+        },
+        {
+            "tipo": "IDIOMA",
+            "nombre": "Ingl\u00e9s en educaci\u00f3n media",
+            "nivel": "",
+            "exigencia": ""
+        },
+        {
+            "tipo": "INFRAESTRUCTURA",
+            "nombre": "Biblioteca",
+            "nivel": "",
+            "exigencia": ""
+        },
+        {
+            "tipo": "INFRAESTRUCTURA",
+            "nombre": "Cancha",
+            "nivel": "",
+            "exigencia": ""
+        },
+        {
+            "tipo": "INFRAESTRUCTURA",
+            "nombre": "Lab. de Vinificaci\u00f3n; Invernadero; Zona Pecuaria",
+            "nivel": "",
+            "exigencia": ""
+        },
+        {
+            "tipo": "INFRAESTRUCTURA",
+            "nombre": "Sala audiovisual",
+            "nivel": "",
+            "exigencia": ""
+        },
+        {
+            "tipo": "INFRAESTRUCTURA",
+            "nombre": "Sala de computaci\u00f3n con internet",
+            "nivel": "",
+            "exigencia": ""
+        },
+        {
+            "tipo": "INFRAESTRUCTURA",
+            "nombre": "Sala de uso m\u00faltiple",
+            "nivel": "",
+            "exigencia": ""
+        },
+        {
+            "tipo": "INFRAESTRUCTURA",
+            "nombre": "Tecnolog\u00eda en el aula",
+            "nivel": "",
+            "exigencia": ""
+        },
+        {
+            "tipo": "PROGRAMAS",
+            "nombre": "Actividades de acci\u00f3n social",
+            "nivel": "",
+            "exigencia": ""
+        },
+        {
+            "tipo": "PROGRAMAS",
+            "nombre": "Programa de convivencia escolar",
+            "nivel": "",
+            "exigencia": ""
+        },
+        {
+            "tipo": "PROGRAMAS",
+            "nombre": "Programa de cuidado del medio ambiente",
+            "nivel": "",
+            "exigencia": ""
+        },
+        {
+            "tipo": "PROGRAMAS",
+            "nombre": "Programa de educaci\u00f3n sexual",
+            "nivel": "",
+            "exigencia": ""
+        },
+        {
+            "tipo": "PROGRAMAS",
+            "nombre": "Programa de prevenci\u00f3n de drogas y alcohol",
+            "nivel": "",
+            "exigencia": ""
+        },
+        {
+            "tipo": "PROGRAMAS",
+            "nombre": "Programa de promoci\u00f3n de la vida sana",
+            "nivel": "",
+            "exigencia": ""
+        },
+        {
+            "tipo": "PROGRAMAS",
+            "nombre": "Programa de Pr\u00e1ctica y Titulaci\u00f3n; Cap. Laboral",
+            "nivel": "",
+            "exigencia": ""
+        }
+    ],
+    "procesosEspeciales": [],
+    "indicadores": [
+        {
+            "tipo": "CATEGORIA_DESEMPENIO",
+            "titulo": "Medio bajo",
+            "nivel": "Media",
+            "descripcion": "Por debajo de lo esperado",
+            "clasificaciones": []
+        },
+        {
+            "tipo": "DESARROLLO_PERSONAL",
+            "titulo": "indicadores de desarrollo personal y social",
+            "nivel": "Media",
+            "descripcion": "",
+            "clasificaciones": [
+                {
+                    "nombreIndicador": "Autoestima acad\u00e9mica y motivaci\u00f3n escolar",
+                    "puntaje": 74,
+                    "comparacionGseNumero": 0,
+                    "comparacionGseGlosa": "Similar"
+                },
+                {
+                    "nombreIndicador": "Clima de convivencia escolar",
+                    "puntaje": 73,
+                    "comparacionGseNumero": 2,
+                    "comparacionGseGlosa": "Similar"
+                },
+                {
+                    "nombreIndicador": "H\u00e1bitos de vida saludable",
+                    "puntaje": 67,
+                    "comparacionGseNumero": 3,
+                    "comparacionGseGlosa": "Similar"
+                },
+                {
+                    "nombreIndicador": "Participaci\u00f3n y formaci\u00f3n ciudadana",
+                    "puntaje": 82,
+                    "comparacionGseNumero": 4,
+                    "comparacionGseGlosa": "M\u00e1s alto"
+                }
+            ]
+        },
+        {
+            "tipo": "SIMCE",
+            "titulo": "Resultados SIMCE 2018",
+            "nivel": "Media",
+            "descripcion": "",
+            "clasificaciones": [
+                {
+                    "nombreIndicador": "Lenguaje",
+                    "puntaje": 201,
+                    "comparacionGseNumero": 27,
+                    "comparacionGseGlosa": "M\u00e1s bajo"
+                },
+                {
+                    "nombreIndicador": "Matem\u00e1tica",
+                    "puntaje": 200,
+                    "comparacionGseNumero": 1,
+                    "comparacionGseGlosa": "M\u00e1s bajo"
+                }
+            ]
+        }
+    ],
+    "especialidades": [
+        "Agropecuaria"
+    ]
+}

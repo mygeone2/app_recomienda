@@ -1,0 +1,1243 @@
+{
+    "id": "5ced4a75d6469a000139f310",
+    "rbd": 1521,
+    "nombre": "LICEO DE NINAS MARIA FRANCK DE MACDOUGAL",
+    "dependencia": "SERVICIO LOCAL DE EDUCACI\u00d3N",
+    "telefono": "2136800",
+    "mail": "MARIAFRANCK.B30@GMAIL.COM",
+    "url": "WWW.FACEBOOK.COM/LICEON1.VALPO/",
+    "habilitadoPostular": true,
+    "habilitadoVitrina": true,
+    "nivelMinimo": "Pre-Kinder",
+    "nivelMaximo": "IV Medio",
+    "director": {
+        "nombre": "ADA IN\u00c9S FUENTES FONTALBA"
+    },
+    "etiquetas": [
+        "PIE",
+        "SEP",
+        "_4MEDIO",
+        "TECNICO_PROFESIONAL",
+        "GRATUITO"
+    ],
+    "informacionInstitucional": {
+        "resumenProyecto": "",
+        "documentoProyecto": "ProyectoEducativo1521.pdf",
+        "documentoReglamento": "ReglamentodeConvivencia1521.pdf",
+        "internado": false,
+        "integracion": true,
+        "subvencionPreferencial": true,
+        "peib": false,
+        "politicaUniforme": "Uniforme regular",
+        "orientacionReligiosa": "Laica",
+        "alumnosMatriculados": 406,
+        "promedioAlumnosPorCurso": 20,
+        "cantidadDocentes": 50,
+        "regimen": "Mujeres"
+    },
+    "sedes": [
+        {
+            "codigoSede": 1,
+            "direccion": {
+                "codigoRegion": 5,
+                "codigoComuna": 5101,
+                "region": "De Valpara\u00edso",
+                "comuna": "Valpara\u00edso",
+                "calle": "AV. ARGENTINA 731",
+                "coordenadas": {
+                    "type": "Point",
+                    "coordinates": [
+                        -71.60238,
+                        -33.04964
+                    ]
+                }
+            },
+            "niveles": [
+                {
+                    "codigoCurso": 361064008113,
+                    "glosaGrupoEnsenanza": "Educaci\u00f3n Media T\u00e9cnico Profesional",
+                    "glosaEnsenanza": "Ense\u00f1anza Media T\u00e9cnico-Profesional T\u00e9cnica ni\u00f1os",
+                    "glosaNivel": "3\u00b0 medio",
+                    "etiquetaNivel": "3MEDIO",
+                    "sexo": "MUJERES",
+                    "glosaJornada": "COMPLETA",
+                    "glosaEspecialidad": "Atenci\u00f3n de Enfermer\u00eda",
+                    "glosaGrupoPago": "MEDIA_TP",
+                    "codigoEnsenanza": 610,
+                    "codigoNivel": 3,
+                    "codigoJornada": 3,
+                    "codigoSexo": 1,
+                    "codigoEspecialidad": 64008,
+                    "unicoComuna": false,
+                    "proporcionExcelenciaTransicion": null,
+                    "proporcionExcelenciaRegimen": null,
+                    "proporcionEspecializacionTemprana": null,
+                    "copago": {
+                        "numeroCuotas": 0,
+                        "valorCuota": 0
+                    },
+                    "cuposTotales": 21,
+                    "numeroVacantesRangoInferior": 9,
+                    "numeroVacantesRangoSuperior": 12,
+                    "porcentajeCambioInferior": 0.0802647145,
+                    "procentajeCambioSuperior": 0.1931607473,
+                    "cantidadRepitentesAnioActual": 0,
+                    "cantidadRepitentesNivelAnterior": 0,
+                    "cantidadPreInscritosAnioSiguiente": 0,
+                    "cambiosInferior": 0,
+                    "cambiosSuperior": 0,
+                    "cantidadPreVacantesInferior": 21,
+                    "cantidadPreVacantesSuperior": 21,
+                    "rango": 0,
+                    "numeroPostulantesAnioAnterior": 8,
+                    "numeroMovimientoListaEsperaAnoAnterior": 0
+                },
+                {
+                    "codigoCurso": 461064008113,
+                    "glosaGrupoEnsenanza": "Educaci\u00f3n Media T\u00e9cnico Profesional",
+                    "glosaEnsenanza": "Ense\u00f1anza Media T\u00e9cnico-Profesional T\u00e9cnica ni\u00f1os",
+                    "glosaNivel": "4\u00b0 medio",
+                    "etiquetaNivel": "4MEDIO",
+                    "sexo": "MUJERES",
+                    "glosaJornada": "COMPLETA",
+                    "glosaEspecialidad": "Atenci\u00f3n de Enfermer\u00eda",
+                    "glosaGrupoPago": "MEDIA_TP",
+                    "codigoEnsenanza": 610,
+                    "codigoNivel": 4,
+                    "codigoJornada": 3,
+                    "codigoSexo": 1,
+                    "codigoEspecialidad": 64008,
+                    "unicoComuna": false,
+                    "proporcionExcelenciaTransicion": null,
+                    "proporcionExcelenciaRegimen": null,
+                    "proporcionEspecializacionTemprana": null,
+                    "copago": {
+                        "numeroCuotas": 0,
+                        "valorCuota": 0
+                    },
+                    "cuposTotales": 21,
+                    "numeroVacantesRangoInferior": 5,
+                    "numeroVacantesRangoSuperior": 8,
+                    "porcentajeCambioInferior": 0.0305555555,
+                    "procentajeCambioSuperior": 0.0980616605,
+                    "cantidadRepitentesAnioActual": 0,
+                    "cantidadRepitentesNivelAnterior": 0,
+                    "cantidadPreInscritosAnioSiguiente": 15,
+                    "cambiosInferior": 0,
+                    "cambiosSuperior": 1,
+                    "cantidadPreVacantesInferior": 5,
+                    "cantidadPreVacantesSuperior": 8,
+                    "rango": 1,
+                    "numeroPostulantesAnioAnterior": 2,
+                    "numeroMovimientoListaEsperaAnoAnterior": 0
+                },
+                {
+                    "codigoCurso": 361064001113,
+                    "glosaGrupoEnsenanza": "Educaci\u00f3n Media T\u00e9cnico Profesional",
+                    "glosaEnsenanza": "Ense\u00f1anza Media T\u00e9cnico-Profesional T\u00e9cnica ni\u00f1os",
+                    "glosaNivel": "3\u00b0 medio",
+                    "etiquetaNivel": "3MEDIO",
+                    "sexo": "MUJERES",
+                    "glosaJornada": "COMPLETA",
+                    "glosaEspecialidad": "Atenci\u00f3n de P\u00e1rvulos",
+                    "glosaGrupoPago": "MEDIA_TP",
+                    "codigoEnsenanza": 610,
+                    "codigoNivel": 3,
+                    "codigoJornada": 3,
+                    "codigoSexo": 1,
+                    "codigoEspecialidad": 64001,
+                    "unicoComuna": false,
+                    "proporcionExcelenciaTransicion": null,
+                    "proporcionExcelenciaRegimen": null,
+                    "proporcionEspecializacionTemprana": null,
+                    "copago": {
+                        "numeroCuotas": 0,
+                        "valorCuota": 0
+                    },
+                    "cuposTotales": 25,
+                    "numeroVacantesRangoInferior": 10,
+                    "numeroVacantesRangoSuperior": 13,
+                    "porcentajeCambioInferior": 0.0802647145,
+                    "procentajeCambioSuperior": 0.1931607473,
+                    "cantidadRepitentesAnioActual": 0,
+                    "cantidadRepitentesNivelAnterior": 0,
+                    "cantidadPreInscritosAnioSiguiente": 0,
+                    "cambiosInferior": 0,
+                    "cambiosSuperior": 0,
+                    "cantidadPreVacantesInferior": 25,
+                    "cantidadPreVacantesSuperior": 25,
+                    "rango": 0,
+                    "numeroPostulantesAnioAnterior": 2,
+                    "numeroMovimientoListaEsperaAnoAnterior": 0
+                },
+                {
+                    "codigoCurso": 461064001113,
+                    "glosaGrupoEnsenanza": "Educaci\u00f3n Media T\u00e9cnico Profesional",
+                    "glosaEnsenanza": "Ense\u00f1anza Media T\u00e9cnico-Profesional T\u00e9cnica ni\u00f1os",
+                    "glosaNivel": "4\u00b0 medio",
+                    "etiquetaNivel": "4MEDIO",
+                    "sexo": "MUJERES",
+                    "glosaJornada": "COMPLETA",
+                    "glosaEspecialidad": "Atenci\u00f3n de P\u00e1rvulos",
+                    "glosaGrupoPago": "MEDIA_TP",
+                    "codigoEnsenanza": 610,
+                    "codigoNivel": 4,
+                    "codigoJornada": 3,
+                    "codigoSexo": 1,
+                    "codigoEspecialidad": 64001,
+                    "unicoComuna": false,
+                    "proporcionExcelenciaTransicion": null,
+                    "proporcionExcelenciaRegimen": null,
+                    "proporcionEspecializacionTemprana": null,
+                    "copago": {
+                        "numeroCuotas": 0,
+                        "valorCuota": 0
+                    },
+                    "cuposTotales": 25,
+                    "numeroVacantesRangoInferior": 14,
+                    "numeroVacantesRangoSuperior": 17,
+                    "porcentajeCambioInferior": 0.0305555555,
+                    "procentajeCambioSuperior": 0.0980616605,
+                    "cantidadRepitentesAnioActual": 0,
+                    "cantidadRepitentesNivelAnterior": 0,
+                    "cantidadPreInscritosAnioSiguiente": 10,
+                    "cambiosInferior": 0,
+                    "cambiosSuperior": 1,
+                    "cantidadPreVacantesInferior": 14,
+                    "cantidadPreVacantesSuperior": 17,
+                    "rango": 1,
+                    "numeroPostulantesAnioAnterior": null,
+                    "numeroMovimientoListaEsperaAnoAnterior": null
+                },
+                {
+                    "codigoCurso": 401000000111,
+                    "glosaGrupoEnsenanza": "Educaci\u00f3n Parvularia",
+                    "glosaEnsenanza": "Educaci\u00f3n Parvularia",
+                    "glosaNivel": "1er nivel de Transici\u00f3n (Pre-kinder)",
+                    "etiquetaNivel": "PREKINDER",
+                    "sexo": "MUJERES",
+                    "glosaJornada": "MA\u00d1ANA",
+                    "glosaEspecialidad": null,
+                    "glosaGrupoPago": "PARVULARIA",
+                    "codigoEnsenanza": 10,
+                    "codigoNivel": 4,
+                    "codigoJornada": 1,
+                    "codigoSexo": 1,
+                    "codigoEspecialidad": 0,
+                    "unicoComuna": false,
+                    "proporcionExcelenciaTransicion": null,
+                    "proporcionExcelenciaRegimen": null,
+                    "proporcionEspecializacionTemprana": null,
+                    "copago": {
+                        "numeroCuotas": 0,
+                        "valorCuota": 0
+                    },
+                    "cuposTotales": 25,
+                    "numeroVacantesRangoInferior": 25,
+                    "numeroVacantesRangoSuperior": 25,
+                    "porcentajeCambioInferior": 0.0,
+                    "procentajeCambioSuperior": 0.0,
+                    "cantidadRepitentesAnioActual": 0,
+                    "cantidadRepitentesNivelAnterior": 0,
+                    "cantidadPreInscritosAnioSiguiente": 0,
+                    "cambiosInferior": 0,
+                    "cambiosSuperior": 0,
+                    "cantidadPreVacantesInferior": 25,
+                    "cantidadPreVacantesSuperior": 25,
+                    "rango": 0,
+                    "numeroPostulantesAnioAnterior": 24,
+                    "numeroMovimientoListaEsperaAnoAnterior": 0
+                },
+                {
+                    "codigoCurso": 501000000111,
+                    "glosaGrupoEnsenanza": "Educaci\u00f3n Parvularia",
+                    "glosaEnsenanza": "Educaci\u00f3n Parvularia",
+                    "glosaNivel": "2\u00b0 nivel de Transici\u00f3n (Kinder)",
+                    "etiquetaNivel": "KINDER",
+                    "sexo": "MUJERES",
+                    "glosaJornada": "MA\u00d1ANA",
+                    "glosaEspecialidad": null,
+                    "glosaGrupoPago": "PARVULARIA",
+                    "codigoEnsenanza": 10,
+                    "codigoNivel": 5,
+                    "codigoJornada": 1,
+                    "codigoSexo": 1,
+                    "codigoEspecialidad": 0,
+                    "unicoComuna": false,
+                    "proporcionExcelenciaTransicion": null,
+                    "proporcionExcelenciaRegimen": null,
+                    "proporcionEspecializacionTemprana": null,
+                    "copago": {
+                        "numeroCuotas": 0,
+                        "valorCuota": 0
+                    },
+                    "cuposTotales": 25,
+                    "numeroVacantesRangoInferior": 17,
+                    "numeroVacantesRangoSuperior": 20,
+                    "porcentajeCambioInferior": 0.2443181818,
+                    "procentajeCambioSuperior": 0.4545454545,
+                    "cantidadRepitentesAnioActual": 0,
+                    "cantidadRepitentesNivelAnterior": 0,
+                    "cantidadPreInscritosAnioSiguiente": 10,
+                    "cambiosInferior": 2,
+                    "cambiosSuperior": 5,
+                    "cantidadPreVacantesInferior": 17,
+                    "cantidadPreVacantesSuperior": 20,
+                    "rango": 3,
+                    "numeroPostulantesAnioAnterior": 2,
+                    "numeroMovimientoListaEsperaAnoAnterior": 0
+                },
+                {
+                    "codigoCurso": 111000000113,
+                    "glosaGrupoEnsenanza": "Educaci\u00f3n B\u00e1sica",
+                    "glosaEnsenanza": "Ense\u00f1anza B\u00e1sica",
+                    "glosaNivel": "1\u00b0 b\u00e1sico",
+                    "etiquetaNivel": "1BASICO",
+                    "sexo": "MUJERES",
+                    "glosaJornada": "COMPLETA",
+                    "glosaEspecialidad": null,
+                    "glosaGrupoPago": "BASICA",
+                    "codigoEnsenanza": 110,
+                    "codigoNivel": 1,
+                    "codigoJornada": 3,
+                    "codigoSexo": 1,
+                    "codigoEspecialidad": 0,
+                    "unicoComuna": false,
+                    "proporcionExcelenciaTransicion": null,
+                    "proporcionExcelenciaRegimen": null,
+                    "proporcionEspecializacionTemprana": null,
+                    "copago": {
+                        "numeroCuotas": 0,
+                        "valorCuota": 0
+                    },
+                    "cuposTotales": 35,
+                    "numeroVacantesRangoInferior": 21,
+                    "numeroVacantesRangoSuperior": 24,
+                    "porcentajeCambioInferior": 0.18628205120000002,
+                    "procentajeCambioSuperior": 0.2323717948,
+                    "cantidadRepitentesAnioActual": 0,
+                    "cantidadRepitentesNivelAnterior": 0,
+                    "cantidadPreInscritosAnioSiguiente": 16,
+                    "cambiosInferior": 3,
+                    "cambiosSuperior": 4,
+                    "cantidadPreVacantesInferior": 21,
+                    "cantidadPreVacantesSuperior": 24,
+                    "rango": 1,
+                    "numeroPostulantesAnioAnterior": 5,
+                    "numeroMovimientoListaEsperaAnoAnterior": 0
+                },
+                {
+                    "codigoCurso": 211000000113,
+                    "glosaGrupoEnsenanza": "Educaci\u00f3n B\u00e1sica",
+                    "glosaEnsenanza": "Ense\u00f1anza B\u00e1sica",
+                    "glosaNivel": "2\u00b0 b\u00e1sico",
+                    "etiquetaNivel": "2BASICO",
+                    "sexo": "MUJERES",
+                    "glosaJornada": "COMPLETA",
+                    "glosaEspecialidad": null,
+                    "glosaGrupoPago": "BASICA",
+                    "codigoEnsenanza": 110,
+                    "codigoNivel": 2,
+                    "codigoJornada": 3,
+                    "codigoSexo": 1,
+                    "codigoEspecialidad": 0,
+                    "unicoComuna": false,
+                    "proporcionExcelenciaTransicion": null,
+                    "proporcionExcelenciaRegimen": null,
+                    "proporcionEspecializacionTemprana": null,
+                    "copago": {
+                        "numeroCuotas": 0,
+                        "valorCuota": 0
+                    },
+                    "cuposTotales": 35,
+                    "numeroVacantesRangoInferior": 11,
+                    "numeroVacantesRangoSuperior": 14,
+                    "porcentajeCambioInferior": 0.2159420289,
+                    "procentajeCambioSuperior": 0.3057712215,
+                    "cantidadRepitentesAnioActual": 0,
+                    "cantidadRepitentesNivelAnterior": 0,
+                    "cantidadPreInscritosAnioSiguiente": 31,
+                    "cambiosInferior": 7,
+                    "cambiosSuperior": 9,
+                    "cantidadPreVacantesInferior": 11,
+                    "cantidadPreVacantesSuperior": 14,
+                    "rango": 2,
+                    "numeroPostulantesAnioAnterior": 6,
+                    "numeroMovimientoListaEsperaAnoAnterior": 0
+                },
+                {
+                    "codigoCurso": 311000000113,
+                    "glosaGrupoEnsenanza": "Educaci\u00f3n B\u00e1sica",
+                    "glosaEnsenanza": "Ense\u00f1anza B\u00e1sica",
+                    "glosaNivel": "3\u00b0 b\u00e1sico",
+                    "etiquetaNivel": "3BASICO",
+                    "sexo": "MUJERES",
+                    "glosaJornada": "COMPLETA",
+                    "glosaEspecialidad": null,
+                    "glosaGrupoPago": "BASICA",
+                    "codigoEnsenanza": 110,
+                    "codigoNivel": 3,
+                    "codigoJornada": 3,
+                    "codigoSexo": 1,
+                    "codigoEspecialidad": 0,
+                    "unicoComuna": false,
+                    "proporcionExcelenciaTransicion": null,
+                    "proporcionExcelenciaRegimen": null,
+                    "proporcionEspecializacionTemprana": null,
+                    "copago": {
+                        "numeroCuotas": 0,
+                        "valorCuota": 0
+                    },
+                    "cuposTotales": 35,
+                    "numeroVacantesRangoInferior": 10,
+                    "numeroVacantesRangoSuperior": 14,
+                    "porcentajeCambioInferior": 0.10706018510000001,
+                    "procentajeCambioSuperior": 0.2641304347,
+                    "cantidadRepitentesAnioActual": 0,
+                    "cantidadRepitentesNivelAnterior": 0,
+                    "cantidadPreInscritosAnioSiguiente": 28,
+                    "cambiosInferior": 3,
+                    "cambiosSuperior": 7,
+                    "cantidadPreVacantesInferior": 10,
+                    "cantidadPreVacantesSuperior": 14,
+                    "rango": 4,
+                    "numeroPostulantesAnioAnterior": 1,
+                    "numeroMovimientoListaEsperaAnoAnterior": 0
+                },
+                {
+                    "codigoCurso": 411000000113,
+                    "glosaGrupoEnsenanza": "Educaci\u00f3n B\u00e1sica",
+                    "glosaEnsenanza": "Ense\u00f1anza B\u00e1sica",
+                    "glosaNivel": "4\u00b0 b\u00e1sico",
+                    "etiquetaNivel": "4BASICO",
+                    "sexo": "MUJERES",
+                    "glosaJornada": "COMPLETA",
+                    "glosaEspecialidad": null,
+                    "glosaGrupoPago": "BASICA",
+                    "codigoEnsenanza": 110,
+                    "codigoNivel": 4,
+                    "codigoJornada": 3,
+                    "codigoSexo": 1,
+                    "codigoEspecialidad": 0,
+                    "unicoComuna": false,
+                    "proporcionExcelenciaTransicion": null,
+                    "proporcionExcelenciaRegimen": null,
+                    "proporcionEspecializacionTemprana": null,
+                    "copago": {
+                        "numeroCuotas": 0,
+                        "valorCuota": 0
+                    },
+                    "cuposTotales": 35,
+                    "numeroVacantesRangoInferior": 18,
+                    "numeroVacantesRangoSuperior": 21,
+                    "porcentajeCambioInferior": 0.14021164020000002,
+                    "procentajeCambioSuperior": 0.2523448773,
+                    "cantidadRepitentesAnioActual": 0,
+                    "cantidadRepitentesNivelAnterior": 0,
+                    "cantidadPreInscritosAnioSiguiente": 20,
+                    "cambiosInferior": 3,
+                    "cambiosSuperior": 5,
+                    "cantidadPreVacantesInferior": 18,
+                    "cantidadPreVacantesSuperior": 21,
+                    "rango": 2,
+                    "numeroPostulantesAnioAnterior": 3,
+                    "numeroMovimientoListaEsperaAnoAnterior": 0
+                },
+                {
+                    "codigoCurso": 511000000113,
+                    "glosaGrupoEnsenanza": "Educaci\u00f3n B\u00e1sica",
+                    "glosaEnsenanza": "Ense\u00f1anza B\u00e1sica",
+                    "glosaNivel": "5\u00b0 b\u00e1sico",
+                    "etiquetaNivel": "5BASICO",
+                    "sexo": "MUJERES",
+                    "glosaJornada": "COMPLETA",
+                    "glosaEspecialidad": null,
+                    "glosaGrupoPago": "BASICA",
+                    "codigoEnsenanza": 110,
+                    "codigoNivel": 5,
+                    "codigoJornada": 3,
+                    "codigoSexo": 1,
+                    "codigoEspecialidad": 0,
+                    "unicoComuna": false,
+                    "proporcionExcelenciaTransicion": null,
+                    "proporcionExcelenciaRegimen": null,
+                    "proporcionEspecializacionTemprana": null,
+                    "copago": {
+                        "numeroCuotas": 0,
+                        "valorCuota": 0
+                    },
+                    "cuposTotales": 35,
+                    "numeroVacantesRangoInferior": 15,
+                    "numeroVacantesRangoSuperior": 19,
+                    "porcentajeCambioInferior": 0.1832386363,
+                    "procentajeCambioSuperior": 0.32341269840000003,
+                    "cantidadRepitentesAnioActual": 0,
+                    "cantidadRepitentesNivelAnterior": 0,
+                    "cantidadPreInscritosAnioSiguiente": 24,
+                    "cambiosInferior": 4,
+                    "cambiosSuperior": 8,
+                    "cantidadPreVacantesInferior": 15,
+                    "cantidadPreVacantesSuperior": 19,
+                    "rango": 4,
+                    "numeroPostulantesAnioAnterior": 4,
+                    "numeroMovimientoListaEsperaAnoAnterior": 0
+                },
+                {
+                    "codigoCurso": 611000000113,
+                    "glosaGrupoEnsenanza": "Educaci\u00f3n B\u00e1sica",
+                    "glosaEnsenanza": "Ense\u00f1anza B\u00e1sica",
+                    "glosaNivel": "6\u00b0 b\u00e1sico",
+                    "etiquetaNivel": "6BASICO",
+                    "sexo": "MUJERES",
+                    "glosaJornada": "COMPLETA",
+                    "glosaEspecialidad": null,
+                    "glosaGrupoPago": "BASICA",
+                    "codigoEnsenanza": 110,
+                    "codigoNivel": 6,
+                    "codigoJornada": 3,
+                    "codigoSexo": 1,
+                    "codigoEspecialidad": 0,
+                    "unicoComuna": false,
+                    "proporcionExcelenciaTransicion": null,
+                    "proporcionExcelenciaRegimen": null,
+                    "proporcionEspecializacionTemprana": null,
+                    "copago": {
+                        "numeroCuotas": 0,
+                        "valorCuota": 0
+                    },
+                    "cuposTotales": 35,
+                    "numeroVacantesRangoInferior": 19,
+                    "numeroVacantesRangoSuperior": 22,
+                    "porcentajeCambioInferior": 0.1435185185,
+                    "procentajeCambioSuperior": 0.3161421911,
+                    "cantidadRepitentesAnioActual": 0,
+                    "cantidadRepitentesNivelAnterior": 0,
+                    "cantidadPreInscritosAnioSiguiente": 19,
+                    "cambiosInferior": 3,
+                    "cambiosSuperior": 6,
+                    "cantidadPreVacantesInferior": 19,
+                    "cantidadPreVacantesSuperior": 22,
+                    "rango": 3,
+                    "numeroPostulantesAnioAnterior": 1,
+                    "numeroMovimientoListaEsperaAnoAnterior": 0
+                },
+                {
+                    "codigoCurso": 711000000113,
+                    "glosaGrupoEnsenanza": "Educaci\u00f3n B\u00e1sica",
+                    "glosaEnsenanza": "Ense\u00f1anza B\u00e1sica",
+                    "glosaNivel": "7\u00b0 b\u00e1sico",
+                    "etiquetaNivel": "7BASICO",
+                    "sexo": "MUJERES",
+                    "glosaJornada": "COMPLETA",
+                    "glosaEspecialidad": null,
+                    "glosaGrupoPago": "BASICA",
+                    "codigoEnsenanza": 110,
+                    "codigoNivel": 7,
+                    "codigoJornada": 3,
+                    "codigoSexo": 1,
+                    "codigoEspecialidad": 0,
+                    "unicoComuna": false,
+                    "proporcionExcelenciaTransicion": null,
+                    "proporcionExcelenciaRegimen": null,
+                    "proporcionEspecializacionTemprana": null,
+                    "copago": {
+                        "numeroCuotas": 0,
+                        "valorCuota": 0
+                    },
+                    "cuposTotales": 35,
+                    "numeroVacantesRangoInferior": 24,
+                    "numeroVacantesRangoSuperior": 27,
+                    "porcentajeCambioInferior": 0.1305555555,
+                    "procentajeCambioSuperior": 0.2121212121,
+                    "cantidadRepitentesAnioActual": 0,
+                    "cantidadRepitentesNivelAnterior": 0,
+                    "cantidadPreInscritosAnioSiguiente": 11,
+                    "cambiosInferior": 1,
+                    "cambiosSuperior": 2,
+                    "cantidadPreVacantesInferior": 24,
+                    "cantidadPreVacantesSuperior": 27,
+                    "rango": 1,
+                    "numeroPostulantesAnioAnterior": 1,
+                    "numeroMovimientoListaEsperaAnoAnterior": 0
+                },
+                {
+                    "codigoCurso": 811000000113,
+                    "glosaGrupoEnsenanza": "Educaci\u00f3n B\u00e1sica",
+                    "glosaEnsenanza": "Ense\u00f1anza B\u00e1sica",
+                    "glosaNivel": "8\u00b0 b\u00e1sico",
+                    "etiquetaNivel": "8BASICO",
+                    "sexo": "MUJERES",
+                    "glosaJornada": "COMPLETA",
+                    "glosaEspecialidad": null,
+                    "glosaGrupoPago": "BASICA",
+                    "codigoEnsenanza": 110,
+                    "codigoNivel": 8,
+                    "codigoJornada": 3,
+                    "codigoSexo": 1,
+                    "codigoEspecialidad": 0,
+                    "unicoComuna": false,
+                    "proporcionExcelenciaTransicion": null,
+                    "proporcionExcelenciaRegimen": null,
+                    "proporcionEspecializacionTemprana": null,
+                    "copago": {
+                        "numeroCuotas": 0,
+                        "valorCuota": 0
+                    },
+                    "cuposTotales": 35,
+                    "numeroVacantesRangoInferior": 13,
+                    "numeroVacantesRangoSuperior": 16,
+                    "porcentajeCambioInferior": 0.1371252204,
+                    "procentajeCambioSuperior": 0.18099547510000003,
+                    "cantidadRepitentesAnioActual": 0,
+                    "cantidadRepitentesNivelAnterior": 0,
+                    "cantidadPreInscritosAnioSiguiente": 25,
+                    "cambiosInferior": 3,
+                    "cambiosSuperior": 5,
+                    "cantidadPreVacantesInferior": 13,
+                    "cantidadPreVacantesSuperior": 16,
+                    "rango": 2,
+                    "numeroPostulantesAnioAnterior": 1,
+                    "numeroMovimientoListaEsperaAnoAnterior": 0
+                },
+                {
+                    "codigoCurso": 131000000113,
+                    "glosaGrupoEnsenanza": "Educaci\u00f3n Media Cient\u00edfico - Humanista",
+                    "glosaEnsenanza": "Ense\u00f1anza Media  Humanista-Cient\u00edfica ni\u00f1os y j\u00f3venes",
+                    "glosaNivel": "1\u00b0 medio",
+                    "etiquetaNivel": "1MEDIO",
+                    "sexo": "MUJERES",
+                    "glosaJornada": "COMPLETA",
+                    "glosaEspecialidad": null,
+                    "glosaGrupoPago": "MEDIA_HC",
+                    "codigoEnsenanza": 310,
+                    "codigoNivel": 1,
+                    "codigoJornada": 3,
+                    "codigoSexo": 1,
+                    "codigoEspecialidad": 0,
+                    "unicoComuna": false,
+                    "proporcionExcelenciaTransicion": null,
+                    "proporcionExcelenciaRegimen": null,
+                    "proporcionEspecializacionTemprana": null,
+                    "copago": {
+                        "numeroCuotas": 0,
+                        "valorCuota": 0
+                    },
+                    "cuposTotales": 70,
+                    "numeroVacantesRangoInferior": 52,
+                    "numeroVacantesRangoSuperior": 57,
+                    "porcentajeCambioInferior": 0.2834901433,
+                    "procentajeCambioSuperior": 0.46592261900000004,
+                    "cantidadRepitentesAnioActual": 0,
+                    "cantidadRepitentesNivelAnterior": 0,
+                    "cantidadPreInscritosAnioSiguiente": 25,
+                    "cambiosInferior": 7,
+                    "cambiosSuperior": 12,
+                    "cantidadPreVacantesInferior": 52,
+                    "cantidadPreVacantesSuperior": 57,
+                    "rango": 5,
+                    "numeroPostulantesAnioAnterior": 120,
+                    "numeroMovimientoListaEsperaAnoAnterior": 0
+                },
+                {
+                    "codigoCurso": 231000000113,
+                    "glosaGrupoEnsenanza": "Educaci\u00f3n Media Cient\u00edfico - Humanista",
+                    "glosaEnsenanza": "Ense\u00f1anza Media  Humanista-Cient\u00edfica ni\u00f1os y j\u00f3venes",
+                    "glosaNivel": "2\u00b0 medio",
+                    "etiquetaNivel": "2MEDIO",
+                    "sexo": "MUJERES",
+                    "glosaJornada": "COMPLETA",
+                    "glosaEspecialidad": null,
+                    "glosaGrupoPago": "MEDIA_HC",
+                    "codigoEnsenanza": 310,
+                    "codigoNivel": 2,
+                    "codigoJornada": 3,
+                    "codigoSexo": 1,
+                    "codigoEspecialidad": 0,
+                    "unicoComuna": false,
+                    "proporcionExcelenciaTransicion": null,
+                    "proporcionExcelenciaRegimen": null,
+                    "proporcionEspecializacionTemprana": null,
+                    "copago": {
+                        "numeroCuotas": 0,
+                        "valorCuota": 0
+                    },
+                    "cuposTotales": 70,
+                    "numeroVacantesRangoInferior": 18,
+                    "numeroVacantesRangoSuperior": 24,
+                    "porcentajeCambioInferior": 0.10851851850000001,
+                    "procentajeCambioSuperior": 0.2041702555,
+                    "cantidadRepitentesAnioActual": 0,
+                    "cantidadRepitentesNivelAnterior": 0,
+                    "cantidadPreInscritosAnioSiguiente": 60,
+                    "cambiosInferior": 7,
+                    "cambiosSuperior": 12,
+                    "cantidadPreVacantesInferior": 17,
+                    "cantidadPreVacantesSuperior": 22,
+                    "rango": 5,
+                    "numeroPostulantesAnioAnterior": 5,
+                    "numeroMovimientoListaEsperaAnoAnterior": 0
+                },
+                {
+                    "codigoCurso": 331000000113,
+                    "glosaGrupoEnsenanza": "Educaci\u00f3n Media Cient\u00edfico - Humanista",
+                    "glosaEnsenanza": "Ense\u00f1anza Media  Humanista-Cient\u00edfica ni\u00f1os y j\u00f3venes",
+                    "glosaNivel": "3\u00b0 medio",
+                    "etiquetaNivel": "3MEDIO",
+                    "sexo": "MUJERES",
+                    "glosaJornada": "COMPLETA",
+                    "glosaEspecialidad": null,
+                    "glosaGrupoPago": "MEDIA_HC",
+                    "codigoEnsenanza": 310,
+                    "codigoNivel": 3,
+                    "codigoJornada": 3,
+                    "codigoSexo": 1,
+                    "codigoEspecialidad": 0,
+                    "unicoComuna": false,
+                    "proporcionExcelenciaTransicion": null,
+                    "proporcionExcelenciaRegimen": null,
+                    "proporcionEspecializacionTemprana": null,
+                    "copago": {
+                        "numeroCuotas": 0,
+                        "valorCuota": 0
+                    },
+                    "cuposTotales": 35,
+                    "numeroVacantesRangoInferior": 10,
+                    "numeroVacantesRangoSuperior": 13,
+                    "porcentajeCambioInferior": 0.0802647145,
+                    "procentajeCambioSuperior": 0.1931607473,
+                    "cantidadRepitentesAnioActual": 0,
+                    "cantidadRepitentesNivelAnterior": 0,
+                    "cantidadPreInscritosAnioSiguiente": 0,
+                    "cambiosInferior": 0,
+                    "cambiosSuperior": 0,
+                    "cantidadPreVacantesInferior": 35,
+                    "cantidadPreVacantesSuperior": 35,
+                    "rango": 0,
+                    "numeroPostulantesAnioAnterior": null,
+                    "numeroMovimientoListaEsperaAnoAnterior": null
+                },
+                {
+                    "codigoCurso": 431000000113,
+                    "glosaGrupoEnsenanza": "Educaci\u00f3n Media Cient\u00edfico - Humanista",
+                    "glosaEnsenanza": "Ense\u00f1anza Media  Humanista-Cient\u00edfica ni\u00f1os y j\u00f3venes",
+                    "glosaNivel": "4\u00b0 medio",
+                    "etiquetaNivel": "4MEDIO",
+                    "sexo": "MUJERES",
+                    "glosaJornada": "COMPLETA",
+                    "glosaEspecialidad": null,
+                    "glosaGrupoPago": "MEDIA_HC",
+                    "codigoEnsenanza": 310,
+                    "codigoNivel": 4,
+                    "codigoJornada": 3,
+                    "codigoSexo": 1,
+                    "codigoEspecialidad": 0,
+                    "unicoComuna": false,
+                    "proporcionExcelenciaTransicion": null,
+                    "proporcionExcelenciaRegimen": null,
+                    "proporcionEspecializacionTemprana": null,
+                    "copago": {
+                        "numeroCuotas": 0,
+                        "valorCuota": 0
+                    },
+                    "cuposTotales": 35,
+                    "numeroVacantesRangoInferior": 17,
+                    "numeroVacantesRangoSuperior": 20,
+                    "porcentajeCambioInferior": 0.0305555555,
+                    "procentajeCambioSuperior": 0.0980616605,
+                    "cantidadRepitentesAnioActual": 0,
+                    "cantidadRepitentesNivelAnterior": 0,
+                    "cantidadPreInscritosAnioSiguiente": 18,
+                    "cambiosInferior": 1,
+                    "cambiosSuperior": 2,
+                    "cantidadPreVacantesInferior": 17,
+                    "cantidadPreVacantesSuperior": 20,
+                    "rango": 1,
+                    "numeroPostulantesAnioAnterior": 2,
+                    "numeroMovimientoListaEsperaAnoAnterior": 0
+                }
+            ]
+        }
+    ],
+    "imagenes": [
+        {
+            "nombre": "Taller+Alimentaci\u00f3n+Saludable+B\u00e1sica+2.jpg",
+            "principal": false
+        },
+        {
+            "nombre": "Actividades+TP+Enfermer\u00eda+4.jpg",
+            "principal": false
+        },
+        {
+            "nombre": "Actividades+Aniversario.jpg",
+            "principal": false
+        },
+        {
+            "nombre": "Actividades+Aniversario+2.jpg",
+            "principal": false
+        },
+        {
+            "nombre": "Actividades+Pre+Kinder+-+Kinder+7.jpg",
+            "principal": false
+        },
+        {
+            "nombre": "Actividades+TP+Enfermer\u00eda+7.jpg",
+            "principal": false
+        },
+        {
+            "nombre": "Fachada.jpg",
+            "principal": false
+        },
+        {
+            "nombre": "Interior.jpg",
+            "principal": false
+        },
+        {
+            "nombre": "Actividades+Pre+Kinder+-+Kinder+8.jpeg",
+            "principal": false
+        },
+        {
+            "nombre": "Pequebibliocra.jpg",
+            "principal": false
+        },
+        {
+            "nombre": "Sala+de+Enlaces+1.jpg",
+            "principal": false
+        },
+        {
+            "nombre": "Sala+de+Enlaces+2.jpg",
+            "principal": false
+        },
+        {
+            "nombre": "Biblioteca.jpg",
+            "principal": false
+        },
+        {
+            "nombre": "Punto+Verde.jpg",
+            "principal": false
+        },
+        {
+            "nombre": "Actividades+TP+Enfermer\u00eda+8.jpg",
+            "principal": false
+        },
+        {
+            "nombre": "Multitalleres+TP+P\u00e1rvulos.jpg",
+            "principal": false
+        },
+        {
+            "nombre": "Actividad+Zumba+1.jpg",
+            "principal": false
+        },
+        {
+            "nombre": "Pabell\u00f3n+TP+Enfermer\u00eda+A.jpg",
+            "principal": false
+        },
+        {
+            "nombre": "Pabell\u00f3n+TP+Enfermer\u00eda+B.jpg",
+            "principal": false
+        },
+        {
+            "nombre": "Portada+liceo.jpg",
+            "principal": true
+        },
+        {
+            "nombre": "Taller+Medio+Ambiente.jpg",
+            "principal": false
+        },
+        {
+            "nombre": "Actividades+Pre+Kinder+-+Kinder++1.jpg",
+            "principal": false
+        },
+        {
+            "nombre": "TP+Atenci\u00f3n+de+Enfermer\u00eda.jpg",
+            "principal": false
+        },
+        {
+            "nombre": "Taller+Alimentaci\u00f3n+Saludable+B\u00e1sica.jpg",
+            "principal": false
+        },
+        {
+            "nombre": "Actividades+TP+Enfermer\u00eda+2.jpg",
+            "principal": false
+        },
+        {
+            "nombre": "Actividades+TP+Enfermer\u00eda+3.jpg",
+            "principal": false
+        },
+        {
+            "nombre": "Actividades+TP+Enfermer\u00eda+12.jpg",
+            "principal": false
+        },
+        {
+            "nombre": "Taller+Alimentaci\u00f3n+Saludable+B\u00e1sica+1.jpg",
+            "principal": false
+        },
+        {
+            "nombre": "TP+Atenci\u00f3n+de+P\u00e1rvulos.jpg",
+            "principal": false
+        },
+        {
+            "nombre": "Actividades+TP++P\u00e1rvulos+4.jpg",
+            "principal": false
+        },
+        {
+            "nombre": "Actividades+TP++P\u00e1rvulos+7.jpg",
+            "principal": false
+        },
+        {
+            "nombre": "Actividades+TP++P\u00e1rvulos+9.jpg",
+            "principal": false
+        },
+        {
+            "nombre": "Actividades+TP++P\u00e1rvulos+11.jpg",
+            "principal": false
+        },
+        {
+            "nombre": "Actividades+Septiembre.jpg",
+            "principal": false
+        },
+        {
+            "nombre": "Desfile.jpg",
+            "principal": false
+        },
+        {
+            "nombre": "Exposiciones+Hall.jpg",
+            "principal": false
+        },
+        {
+            "nombre": "Feria+Tecnol\u00f3gica.jpg",
+            "principal": false
+        },
+        {
+            "nombre": "Taller+Acondicionamiento+F\u00edsico+3.jpg",
+            "principal": false
+        },
+        {
+            "nombre": "Taller+Medio+Ambiente+Premiaci\u00f3n.jpg",
+            "principal": false
+        },
+        {
+            "nombre": "Aniversario.jpg",
+            "principal": false
+        }
+    ],
+    "distancia": 0.0,
+    "actividades": [
+        {
+            "tipo": "ACTIVIDADES EXTRAPROGRAM\u00c1TICAS",
+            "nombre": "Preuniversitario",
+            "nivel": "",
+            "exigencia": ""
+        },
+        {
+            "tipo": "ACTIVIDADES EXTRAPROGRAM\u00c1TICAS",
+            "nombre": "Taller de artes pl\u00e1sticas",
+            "nivel": "",
+            "exigencia": ""
+        },
+        {
+            "tipo": "ACTIVIDADES EXTRAPROGRAM\u00c1TICAS",
+            "nombre": "Taller de literatura",
+            "nivel": "",
+            "exigencia": ""
+        },
+        {
+            "tipo": "ACTIVIDADES EXTRAPROGRAM\u00c1TICAS",
+            "nombre": "Taller de manualidades",
+            "nivel": "",
+            "exigencia": ""
+        },
+        {
+            "tipo": "ACTIVIDADES EXTRAPROGRAM\u00c1TICAS",
+            "nombre": "Taller de m\u00fasica",
+            "nivel": "",
+            "exigencia": ""
+        },
+        {
+            "tipo": "ACTIVIDADES EXTRAPROGRAM\u00c1TICAS",
+            "nombre": "Taller de teatro",
+            "nivel": "",
+            "exigencia": ""
+        },
+        {
+            "tipo": "ACTIVIDADES EXTRAPROGRAM\u00c1TICAS",
+            "nombre": "Taller de tecnolog\u00eda de la informaci\u00f3n y\n\t\tcomunicaci\u00f3n",
+            "nivel": "",
+            "exigencia": ""
+        },
+        {
+            "tipo": "APOYO ACAD\u00c9MICO",
+            "nombre": "Asistente Social",
+            "nivel": "",
+            "exigencia": ""
+        },
+        {
+            "tipo": "APOYO ACAD\u00c9MICO",
+            "nombre": "Orientador",
+            "nivel": "",
+            "exigencia": ""
+        },
+        {
+            "tipo": "APOYO ACAD\u00c9MICO",
+            "nombre": "Psicopedagogo",
+            "nivel": "",
+            "exigencia": ""
+        },
+        {
+            "tipo": "APOYO ACAD\u00c9MICO",
+            "nombre": "Psic\u00f3logo",
+            "nivel": "",
+            "exigencia": ""
+        },
+        {
+            "tipo": "APOYO ACAD\u00c9MICO",
+            "nombre": "Reforzamiento en materias especificas",
+            "nivel": "",
+            "exigencia": ""
+        },
+        {
+            "tipo": "DEPORTES",
+            "nombre": "Baby F\u00fatbol",
+            "nivel": "",
+            "exigencia": ""
+        },
+        {
+            "tipo": "DEPORTES",
+            "nombre": "Gimnasia art\u00edstica/r\u00edtmica",
+            "nivel": "",
+            "exigencia": ""
+        },
+        {
+            "tipo": "IDIOMA",
+            "nombre": "Ingl\u00e9s en educaci\u00f3n b\u00e1sica",
+            "nivel": "",
+            "exigencia": ""
+        },
+        {
+            "tipo": "IDIOMA",
+            "nombre": "Ingl\u00e9s en educaci\u00f3n media",
+            "nivel": "",
+            "exigencia": ""
+        },
+        {
+            "tipo": "INFRAESTRUCTURA",
+            "nombre": "Biblioteca",
+            "nivel": "",
+            "exigencia": ""
+        },
+        {
+            "tipo": "INFRAESTRUCTURA",
+            "nombre": "Cancha",
+            "nivel": "",
+            "exigencia": ""
+        },
+        {
+            "tipo": "INFRAESTRUCTURA",
+            "nombre": "Espacios adaptados a necesidades educativas especiales",
+            "nivel": "",
+            "exigencia": ""
+        },
+        {
+            "tipo": "INFRAESTRUCTURA",
+            "nombre": "Gimnasio",
+            "nivel": "",
+            "exigencia": ""
+        },
+        {
+            "tipo": "INFRAESTRUCTURA",
+            "nombre": "Laboratorio",
+            "nivel": "",
+            "exigencia": ""
+        },
+        {
+            "tipo": "INFRAESTRUCTURA",
+            "nombre": "Sala audiovisual",
+            "nivel": "",
+            "exigencia": ""
+        },
+        {
+            "tipo": "INFRAESTRUCTURA",
+            "nombre": "Sala de computaci\u00f3n con internet",
+            "nivel": "",
+            "exigencia": ""
+        },
+        {
+            "tipo": "INFRAESTRUCTURA",
+            "nombre": "Sala de uso m\u00faltiple",
+            "nivel": "",
+            "exigencia": ""
+        },
+        {
+            "tipo": "INFRAESTRUCTURA",
+            "nombre": "Tecnolog\u00eda en el aula",
+            "nivel": "",
+            "exigencia": ""
+        },
+        {
+            "tipo": "PROGRAMAS",
+            "nombre": "Actividades de acci\u00f3n social",
+            "nivel": "",
+            "exigencia": ""
+        },
+        {
+            "tipo": "PROGRAMAS",
+            "nombre": "Orientaci\u00f3n",
+            "nivel": "",
+            "exigencia": ""
+        },
+        {
+            "tipo": "PROGRAMAS",
+            "nombre": "Programa de convivencia escolar",
+            "nivel": "",
+            "exigencia": ""
+        },
+        {
+            "tipo": "PROGRAMAS",
+            "nombre": "Programa de cuidado del medio ambiente",
+            "nivel": "",
+            "exigencia": ""
+        },
+        {
+            "tipo": "PROGRAMAS",
+            "nombre": "Programa de educaci\u00f3n sexual",
+            "nivel": "",
+            "exigencia": ""
+        },
+        {
+            "tipo": "PROGRAMAS",
+            "nombre": "Programa de prevenci\u00f3n de drogas y alcohol",
+            "nivel": "",
+            "exigencia": ""
+        },
+        {
+            "tipo": "PROGRAMAS",
+            "nombre": "Programa de promoci\u00f3n de la vida sana",
+            "nivel": "",
+            "exigencia": ""
+        }
+    ],
+    "procesosEspeciales": [],
+    "indicadores": [
+        {
+            "tipo": "CATEGORIA_DESEMPENIO",
+            "titulo": "Medio bajo",
+            "nivel": "Media",
+            "descripcion": "Por debajo de lo esperado",
+            "clasificaciones": []
+        },
+        {
+            "tipo": "CATEGORIA_DESEMPENIO",
+            "titulo": "Medio bajo",
+            "nivel": "B\u00e1sica",
+            "descripcion": "Por debajo de lo esperado",
+            "clasificaciones": []
+        },
+        {
+            "tipo": "DESARROLLO_PERSONAL",
+            "titulo": "indicadores de desarrollo personal y social",
+            "nivel": "B\u00e1sica",
+            "descripcion": "",
+            "clasificaciones": [
+                {
+                    "nombreIndicador": "Autoestima acad\u00e9mica y motivaci\u00f3n escolar",
+                    "puntaje": 71,
+                    "comparacionGseNumero": 4,
+                    "comparacionGseGlosa": "M\u00e1s bajo"
+                },
+                {
+                    "nombreIndicador": "Clima de convivencia escolar",
+                    "puntaje": 72,
+                    "comparacionGseNumero": 4,
+                    "comparacionGseGlosa": "M\u00e1s bajo"
+                },
+                {
+                    "nombreIndicador": "H\u00e1bitos de vida saludable",
+                    "puntaje": 65,
+                    "comparacionGseNumero": 6,
+                    "comparacionGseGlosa": "M\u00e1s bajo"
+                },
+                {
+                    "nombreIndicador": "Participaci\u00f3n y formaci\u00f3n ciudadana",
+                    "puntaje": 68,
+                    "comparacionGseNumero": 10,
+                    "comparacionGseGlosa": "M\u00e1s bajo"
+                }
+            ]
+        },
+        {
+            "tipo": "DESARROLLO_PERSONAL",
+            "titulo": "indicadores de desarrollo personal y social",
+            "nivel": "Media",
+            "descripcion": "",
+            "clasificaciones": [
+                {
+                    "nombreIndicador": "Autoestima acad\u00e9mica y motivaci\u00f3n escolar",
+                    "puntaje": 71,
+                    "comparacionGseNumero": 3,
+                    "comparacionGseGlosa": "Similar"
+                },
+                {
+                    "nombreIndicador": "Clima de convivencia escolar",
+                    "puntaje": 68,
+                    "comparacionGseNumero": 7,
+                    "comparacionGseGlosa": "M\u00e1s bajo"
+                },
+                {
+                    "nombreIndicador": "H\u00e1bitos de vida saludable",
+                    "puntaje": 64,
+                    "comparacionGseNumero": 6,
+                    "comparacionGseGlosa": "M\u00e1s bajo"
+                },
+                {
+                    "nombreIndicador": "Participaci\u00f3n y formaci\u00f3n ciudadana",
+                    "puntaje": 70,
+                    "comparacionGseNumero": 8,
+                    "comparacionGseGlosa": "M\u00e1s bajo"
+                }
+            ]
+        },
+        {
+            "tipo": "SIMCE",
+            "titulo": "Resultados SIMCE 2018",
+            "nivel": "Media",
+            "descripcion": "",
+            "clasificaciones": [
+                {
+                    "nombreIndicador": "Lenguaje",
+                    "puntaje": 239,
+                    "comparacionGseNumero": 11,
+                    "comparacionGseGlosa": "M\u00e1s alto"
+                },
+                {
+                    "nombreIndicador": "Matem\u00e1tica",
+                    "puntaje": 211,
+                    "comparacionGseNumero": 1,
+                    "comparacionGseGlosa": "M\u00e1s bajo"
+                }
+            ]
+        },
+        {
+            "tipo": "SIMCE",
+            "titulo": "Resultados SIMCE 2018",
+            "nivel": "B\u00e1sica",
+            "descripcion": "",
+            "clasificaciones": [
+                {
+                    "nombreIndicador": "Lenguaje",
+                    "puntaje": 221,
+                    "comparacionGseNumero": 7,
+                    "comparacionGseGlosa": "Similar"
+                },
+                {
+                    "nombreIndicador": "Matem\u00e1tica",
+                    "puntaje": 216,
+                    "comparacionGseNumero": 0,
+                    "comparacionGseGlosa": "M\u00e1s bajo"
+                }
+            ]
+        }
+    ],
+    "especialidades": [
+        "Atenci\u00f3n de Enfermer\u00eda",
+        "Atenci\u00f3n de P\u00e1rvulos"
+    ]
+}
