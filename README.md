@@ -9,6 +9,13 @@ SAE perform a excellent job selecting students for schools. It replaced a full-r
 - Higher probability to get accepted if some conditions are present
 So nice, isnt? The problem begins when you don't 
 
-:construction: README under construction :construction:
+## Usage
+To run backend services:
 
-
+```
+docker-compose up
+```
+Several services will be running:
+  - A postgres database server will be running in ``` 172.20.1.2:5432```
+  - A Jupyter Notebook server will be running in ``` 172.20.1.3```
+  - A NodeJS server will be running in ``` 172.20.1.4:80```. Endpoints will be describer further.
