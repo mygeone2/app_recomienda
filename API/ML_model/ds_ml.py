@@ -20,42 +20,46 @@ def shape_into_KNN_shape(data,x,y,z):
 def get_neighbors(id_colegio, id_level, comuna):
  
   df = pd.read_csv('/code/ML_model/summary.csv',delimiter=',',low_memory=False)
-  #filter by comuna
-  df = df[df['id_comuna'] == str(comuna)]
-  df = df[df['codigo_nivel'] == str(id_level)]
+  res = {
+    'error' : 0
+  }
+
+  #filter by comuna, codigo nivel
+  try:
+    df = df[df['id_comuna'] == str(comuna)]
+    df = df[df['codigo_nivel'] == str(id_level)]
+  except IndexError:
+    res['error'] = 'comuna or id_level not found'
+    return res
 
   #access the row that has the id_colegio as id_colegio and str(id_level) as codigo_nivel
-  df_filtered = df[df['id_colegio'] == str(id_colegio)]
+  try:
+    school_requested = df[df['id_colegio'] == str(id_colegio)].iloc[0]
+  except IndexError:
+      res['error'] = 'id_colegio not found'
+      return res  
+     
+  
 
-  #find why the df_filtered is returning more than one row
-  print(df_filtered)
+
 	
-  x = int(df_filtered['alumnos_promedio_por_curso'])
-  y = int(df_filtered['deportes'])
-  z = int(df_filtered['infraestructura'])
-
-  point_of_school_to_compare = (x,y,z)
+  x = int(school_requested['alumnos_promedio_por_curso'])
+  y = int(school_requested['deportes'])
+  z = int(school_requested['infraestructura'])
+  points_of_school_to_compare = (x,y,z)
+  
 
   data_shaped = shape_into_KNN_shape(df,x,y,z)
-
-  x_school_requested = df[df['id_colegio'] == id_colegio]['alumnos_promedio_por_curso']
-  y_school_requested = df[df['id_colegio'] == id_colegio]['deportes']
-  z_school_requested = df[df['id_colegio'] == id_colegio]['infraestructura']
-
-  school_requested = (x_school_requested,y_school_requested,z_school_requested)
-
   nrst_neigh = NearestNeighbors(n_neighbors = 2, algorithm = 'ball_tree')
   a = nrst_neigh.fit(data_shaped)
+  distances,indexes = a.kneighbors([points_of_school_to_compare], 10, return_distance=True)
+  
+  schools = {}
+  for d,i in zip(distances[0],indexes[0]):
+    if d != 0:
+      if (df.iloc[i]['id_colegio'] not in res.keys()):
+        similarity = df.iloc[i].eq(school_requested.values).mean()
+        schools[(df.iloc[i]['id_colegio'])] = similarity.round(2)
+  res['schools'] = schools
+  return (res)
 
-  distances,indexes = nrst_neigh.kneighbors([point_of_school_to_compare], 2, return_distance=True)
-
-
-  #row_school_requested = df[df['id_colegio'] == str(id_colegio) & df['codigo_nivel'] == str(id_level) & df['id_comuna'] == str(comuna)]
-  #print(row_school_requested)
-
-
-  #print(point_of_school_to_find_similar)
-  #distances, indices = nrst_neigh.kneighbors(point_of_school_to_find_similar)
-
-
-#id_colegio,internado,politica_uniforme,orientacion_religiosa,alumnos_matriculados,alumnos_prom_curso,genero,actividades_extra,apoyo_academico,deportes,idioma,infraestructura,programas
