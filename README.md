@@ -18,9 +18,11 @@ docker-compose up
 Several services will be running:
   - A postgres database server will be running in ``` 172.20.1.2:5432```
   - A Jupyter Notebook server will be running in ``` 172.20.1.3```
-  - A NodeJS server will be running in ``` 172.20.1.4:80```. Endpoints will be describer further.
+  - A NodeJS server will be running in ``` 172.20.1.4:80```.
+  
+ # Endpoints
 
-# getProbability
+## getProbability
 This API allows users to retrieve the probability of being accepted into a particular school and level.
 
 The API endpoint is /getProbability/{id_school}/{id_level}, and it expects two parameters:
@@ -56,7 +58,7 @@ Response:
     "probability": -1
 }
 ```
-# getSimilarSchools
+## getSimilarSchools
 This API allows users to retrieve a list of similar schools to a specified school.
 
 The API endpoint is /getSimilarSchools/{id_school}/{id_level}/{comuna}, and it expects three parameters:
