@@ -4,6 +4,8 @@ import numpy as np
 
 from sklearn.neighbors import NearestNeighbors
 import functools
+import json
+from pathlib import Path
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.neighbors import KNeighborsClassifier
@@ -11,6 +13,8 @@ from sklearn.metrics import classification_report
 from sklearn.metrics import confusion_matrix
 
 
+df = pd.read_csv('/code/ML_model/summaryFinal.csv',delimiter=',',low_memory=False)
+folder = Path('/code/ML_model/data_raw')
 
 def shape_into_KNN_shape(data,x,y,z):
   data_shaped = data[['alumnos_promedio_por_curso','deportes','infraestructura']]
@@ -18,8 +22,7 @@ def shape_into_KNN_shape(data,x,y,z):
   return data_shaped
 
 def get_neighbors(id_colegio, id_level, comuna):
- 
-  df = pd.read_csv('/code/ML_model/summary.csv',delimiter=',',low_memory=False)
+  global df
   res = {
     'error' : 0
   }
@@ -35,6 +38,7 @@ def get_neighbors(id_colegio, id_level, comuna):
   #access the row that has the id_colegio as id_colegio and str(id_level) as codigo_nivel
   try:
     school_requested = df[df['id_colegio'] == str(id_colegio)].iloc[0]
+    print(school_requested)
   except IndexError:
       res['error'] = 'id_colegio not found'
       return res  
@@ -54,12 +58,35 @@ def get_neighbors(id_colegio, id_level, comuna):
   a = nrst_neigh.fit(data_shaped)
   distances,indexes = a.kneighbors([points_of_school_to_compare], 10, return_distance=True)
   
-  schools = {}
+
+  return build_res_json(distances,indexes,df,school_requested)
+  
+
+def build_res_json(distances,indexes,df,school_requested):
+  res = {
+    'error' : 0
+  }
+
+
+  schools = []
   for d,i in zip(distances[0],indexes[0]):
     if d != 0:
-      if (df.iloc[i]['id_colegio'] not in res.keys()):
-        similarity = df.iloc[i].eq(school_requested.values).mean()
-        schools[(df.iloc[i]['id_colegio'])] = similarity.round(2)
-  res['schools'] = schools
-  return (res)
+        rbd = df.iloc[i]['id_colegio']
 
+        file = folder / f'{ rbd }.json'
+        file = open(file, encoding="utf8")
+        data = json.load(file)
+      
+        if data not in schools:
+          schools.append({
+            'rbd' : data['rbd'],
+            'name' : data['nombre'],
+            'street' : data['sedes'][0]['direccion']['calle'],
+            'similarity': school_requested.eq(df.iloc[i].values).mean().round(2)
+
+          })
+        
+  res['schools'] = schools
+  return res
+
+        

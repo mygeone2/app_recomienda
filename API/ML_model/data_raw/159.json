@@ -35,7 +35,7 @@
     "sedes": [
         {
             "codigoSede": 1,
-            " ": {
+            "direccion": {
                 "codigoRegion": 1,
                 "codigoComuna": 1404,
                 "region": "De Tarapac\u00e1",

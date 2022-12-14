@@ -7,7 +7,7 @@ import pandas as pd
 from pathlib import Path
 import json
 
-folder = Path('E:/data_recomienda/Data_Colegios_API/')
+folder = Path('E:/Github/app_recomienda/API/ML_model/data_raw')
 
 '''
 
@@ -283,14 +283,13 @@ def getReligionState(i,data):
         return str(data['informacionInstitucional']['orientacionReligiosa'])
 
 def initSummaryFile():
-    with open('summary.csv', 'a') as f:
+    with open('summaryFinal.csv', 'a') as f:
         f.write('id_colegio,id_sede,id_comuna,codigo_nivel,vacantes,internado,uniforme,religion,matriculados,alumnos_promedio_por_curso,regimen,latitud,longitud,act_extra,apoyo_academico,deportes,idioma,infraestructura,programas\n')
 
 def writeSummary(summary):
     #write content of summary to end of file and keep old content
-    with open('summary.csv', 'a') as f:
+    with open('summaryFinal.csv', 'a') as f:
         f.write(summary)
-
 
 def extractSedes(sede):
     #codigoSede, codigoRegion, 
@@ -346,18 +345,20 @@ def getIdComuna(data):
 
 count = 0
 initSummaryFile()
-for i in range(1, 42000):
+for i in range(1, 30000):
    
     file = folder / f'{i}.json'
     try:
 
         file = open(file, encoding="utf8")
         data = json.load(file)
+
         
-    except:
-        pass
+    except Exception as e:
+        print(i,e)
           
     else:
+        print(i)
         for sede in data['sedes']:
             for nivel in data['sedes'][0]['niveles']:
                 summary = ''
