@@ -8,12 +8,30 @@ import functools
 import sys
 import json
 from pydantic import BaseModel
+from fastapi.middleware.cors import CORSMiddleware
+
+origins = [
+    "http://localhost.tiangolo.com",
+    "https://localhost.tiangolo.com",
+    "http://localhost",
+    "http://localhost:8080",
+    "http://localhost:80",
+]
+
 
 # import a function from another file 
 from ML_model.ds_ml import get_neighbors
 
 
 app = FastAPI()
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 conn = psycopg2.connect(
     host="172.20.1.2",
